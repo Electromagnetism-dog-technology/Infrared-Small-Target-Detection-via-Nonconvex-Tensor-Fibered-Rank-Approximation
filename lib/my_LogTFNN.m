@@ -6,7 +6,7 @@ M = rankN(X,0.1);
 Nway = size(X); 
 
 tol      = 1e-4;         
-max_iter = 150;
+max_iter = 20;
 rho      = 1.2;
 
 alpha   = [1,1,opts.theta]/(2+opts.theta);
